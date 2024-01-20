@@ -1,11 +1,9 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import phonestore from "@/public/phonestore.png";
+import todo from "@/public/todo.jpg";
+import mogo from "@/public/mogo.jpg";
+import chatapp from "@/public/chatapp.jpg";
 export const links = [
   {
     name: "Home",
@@ -48,16 +46,18 @@ export const projectsData = [
   {
     title: "Phone Store",
     description:
-      "Phone Store is a comprehensive management system designed for efficient handling of customer information, employee data, product categories, and essential tasks such as login, registration, inventory management, and order processing. Built using C# and Window Form Application, it seamlessly integrates with Microsoft SQL Server to provide a robust and secure platform. With features like inventory tracking, order fulfillment, and a user-friendly interface, Phone Store ensures smooth operations for businesses in the dynamic realm of mobile phone retail",
+      "Phone Store is a comprehensive management system designed for efficient handling of customer information, employee data, product categories, and essential tasks such as login, registration, inventory management, and order processing. Built using C# and Window Form Application, it seamlessly integrates with Microsoft SQL Server to provide a robust and secure platform. With features like inventory tracking, order fulfillment, and a user-friendly interface, Phone Store ensures smooth operations for businesses in the dynamic realm of mobile phone retail.",
     tags: ["C#", "Window Form Application", "Microsoft SQL Server"],
-    imageUrl: corpcommentImg,
+    imageUrl: phonestore,
+    srcUrl: "https://github.com/LionBlackk/PBL3.",
   },
   {
     title: "Mogo",
     description:
       "Mogo is a captivating project that showcases a meticulously designed landing page, seamlessly converted from Photoshop to a live website. Leveraging technologies such as HTML, CSS, SASS, and JavaScript, Mogo epitomizes a perfect blend of creativity and functionality. The use of Vercel ensures a smooth deployment and hosting experience, making the website readily accessible. This project not only demonstrates technical proficiency but also highlights the aesthetic transformation of design concepts into an engaging user interface. Dive into Mogo to witness the fusion of design and development excellence.",
     tags: ["HTML", "CSS", "Javascript", "Vercel", "Photoshop"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: mogo,
+    srcUrl: "https://github.com/LionBlackk/test-mogo-n",
   },
   {
     title: "Chat app",
@@ -73,14 +73,16 @@ export const projectsData = [
       "Prisma",
       "MongoDB",
     ],
-    imageUrl: rmtdevImg,
+    imageUrl: chatapp,
+    srcUrl: "https://github.com/LionBlackk/chat-app",
   },
   {
     title: "Todo app",
     description:
       "TodoApp, crafted with Flutter and powered by Riverpod, exemplifies a straightforward yet powerful Todo management system. The app showcases a seamless implementation of CRUD operations (Create, Read, Update, Delete) in a clean and maintainable code structure. Leveraging Riverpod as the state management solution, TodoApp embraces a declarative and efficient approach to handle application state. This minimalist Todo app is designed for ease of use while highlighting best practices in Flutter development, making task management a breeze.",
     tags: ["Flutter", "Riverpod"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: todo,
+    srcUrl: "https://github.com/LionBlackk/todo_app",
   },
 ] as const;
 
