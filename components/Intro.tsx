@@ -5,9 +5,15 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { BiDownload } from "react-icons/bi";
 import { FaFacebook, FaGithub } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 const Intro = () => {
+  const { ref } = useSectionInView("Home", 0.5);
   return (
-    <section className="mb-28 max-w-[44rem] text-center sm:mb-0 ">
+    <section
+      id="home"
+      className="mb-28 max-w-[44rem] text-center sm:mb-0 scroll-mt-[100rem] "
+      ref={ref}
+    >
       <div
         className="
           flex items-center justify-center 

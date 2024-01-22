@@ -1,10 +1,9 @@
 "use client";
-import { projectsData } from "@/lib/data";
+import { ProjectProps } from "@/lib/types";
 import { useScroll, motion, useTransform } from "framer-motion";
 import Image from "next/image";
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { BsGithub } from "react-icons/bs";
-type ProjectProps = (typeof projectsData)[number];
 
 const Project = ({
   title,
@@ -30,9 +29,9 @@ const Project = ({
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <section
-        className="bg-gray-100 max-w-[40rem] border border-black/5
+        className="bg-gray-100 max-w-[44rem] border border-black/5
         rounded-lg overflow-hidden sm:h-[20rem] sm:pr-8
-        relative hover:bg-gray-200 transition sm:group-even:pl-8
+        relative hover:bg-gray-200 transition sm:group-even:pl-16
       "
       >
         <div
@@ -76,8 +75,8 @@ const Project = ({
           alt="image of project"
           quality={95}
           className="
-          absolute -right-40 hidden sm:block w-[28.25rem] rounded-t-lg shadow-xl 
-          top-[62px] h-full object-cover group-even:-left-40 group-even:right-[initial] transition
+          absolute -right-32 hidden sm:block w-[28.25rem] rounded-t-lg shadow-xl 
+          top-[62px] h-full object-cover group-even:-left-[8rem] group-even:right-[initial] transition
           group-even:object-right group-even:group-hover:translate-x-3
           group-even:group-hover:translate-y-3 group-even:group-hover:rotate-3
           group-hover:-translate-x-3 group-hover:translate-y-3 group-hover:-rotate-3
