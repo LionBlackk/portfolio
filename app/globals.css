@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#experience .is-hidden {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.vertical-timeline {
+}
+html {
+  --line-color: #e5e7eb;
+}

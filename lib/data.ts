@@ -4,6 +4,7 @@ import phonestore from "@/public/phonestore.png";
 import todo from "@/public/todo.jpg";
 import mogo from "@/public/mogo.jpg";
 import chatapp from "@/public/chatapp.jpg";
+import { FaReact } from "react-icons/fa";
 export const links = [
   {
     name: "Home",
@@ -38,7 +39,15 @@ export const experiencesData = [
     description:
       "I am currently a 3rd year information technology student. I am looking for a job related to the web in both frontend and backend.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021",
+  },
+  {
+    title: "Full-Stack Developer",
+    location: "Lien Chieu, Da Nang",
+    description:
+      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Node.js, Prisma and MongoDB. In addition to I am also making a mobile app using Flutter,...I'm open to full-time opportunities.",
+    icon: React.createElement(FaReact),
+    date: "2022-present",
   },
 ] as const;
 

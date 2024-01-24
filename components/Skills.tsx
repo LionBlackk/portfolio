@@ -21,12 +21,12 @@ const Skills = () => {
   const { ref } = useSectionInView("Skills");
   return (
     <section
-      className="mt-28 mb-28 scroll-mt-52 sm:mb-40"
+      className="mt-28 mb-28 scroll-mt-28 sm:mb-40 max-w-[54rem] text-center"
       ref={ref}
       id="skills"
     >
       <SectionHeading>My Skills</SectionHeading>
-      <ul className="flex items-center justify-center max-w-[54rem] flex-wrap gap-2">
+      <ul className="flex items-center justify-center flex-wrap gap-2">
         {skillsData.map((skill, index) => (
           <SkillItem key={index} skill={skill} index={index} />
         ))}
