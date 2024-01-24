@@ -32,6 +32,7 @@ const Project = ({
         className="bg-gray-100 max-w-[44rem] border border-black/5
         rounded-lg overflow-hidden sm:h-[20rem] sm:pr-8
         relative hover:bg-gray-200 transition sm:group-even:pl-16
+        dark:bg-white/10 dark:text-white
       "
       >
         <div
@@ -45,14 +46,15 @@ const Project = ({
               href={srcUrl}
               className="
               bg-white px-4 py-2 rounded-full border border-black/20
-              hover:scale-[1.15] transition 
+              hover:scale-[1.15] transition
+              dark:bg-white/10
           "
               target="_blank"
             >
               <BsGithub />
             </a>
           </div>
-          <p className="mt-2 leading-relaxed text-gray-700 text-sm line-clamp-3">
+          <p className="mt-2 leading-relaxed text-gray-700 text-sm line-clamp-3 dark:text-white">
             {description}
           </p>
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">

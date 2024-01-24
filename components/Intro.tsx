@@ -80,8 +80,9 @@ const Intro = () => {
         <a
           href="./CV.pdf"
           className="
-            group flex items-center gap-2 bg-white px-7 py-3 rounded-full
+            group flex items-center gap-2 bg-white px-7 py-3 rounded-full 
             outline-none focus:scale-110 hover:scale-110 active:scale-105 transition
+            dark:bg-white/10 dark:text-white
           "
           download
         >
@@ -93,7 +94,8 @@ const Intro = () => {
           className="
             flex items-center gap-2 bg-white p-4 rounded-full text-gray-700
             outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition
-            border border-black/10  
+            border border-black/10
+            dark:bg-white/10 dark:text-white
           "
           target="_blank"
         >
@@ -105,6 +107,7 @@ const Intro = () => {
             flex items-center gap-2 bg-white p-4 rounded-full text-gray-700
             outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition
             border border-black/10
+            dark:bg-white/10 dark:text-white
           "
           target="_blank"
         >
@@ -116,6 +119,7 @@ const Intro = () => {
             flex items-center gap-2 bg-white p-4 rounded-full text-gray-700
             outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition
             border border-black/10
+            dark:bg-white/10 dark:text-white
           "
           target="_blank"
         >

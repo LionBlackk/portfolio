@@ -44,7 +44,7 @@ const SkillItem = ({
 }) => {
   return (
     <motion.li
-      className="p-4 border border-black/[0.1] rounded-xl"
+      className="p-4 border border-black/[0.1] rounded-xl dark:bg-white/10"
       custom={index}
       variants={fadeInAnimationVariants}
       initial="initial"
