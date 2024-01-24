@@ -47,6 +47,7 @@ const Project = ({
               bg-white px-4 py-2 rounded-full border border-black/20
               hover:scale-[1.15] transition 
           "
+              target="_blank"
             >
               <BsGithub />
             </a>
